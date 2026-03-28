@@ -11,9 +11,10 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_core.documents import Document
+from dotenv import load_dotenv
 
 
-os.environ["GEMINI_API_KEY"] = "xxx"  # here put your api key
+load_dotenv()
 
 # this how we create FastAPI
 app = FastAPI()
