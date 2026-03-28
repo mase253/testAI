@@ -1,0 +1,10 @@
+numpy===1.26.4
+chromadb==0.4.24
+langchain-chroma>=0.1.2
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-google-genai
+pypdf
+python-dotenv
